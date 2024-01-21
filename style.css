@@ -1,0 +1,40 @@
+* {
+    margin: 1%;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    height: 100vh;
+}
+
+.board {
+    height: 80vh;
+    width: 80vh;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.board div {
+    height: 16vh;
+    width: 16vh;
+    background-color: white;
+    margin: auto;
+
+
+}
+
+.grey {
+    background-color: gray !important;
+}
+
+.image {
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
